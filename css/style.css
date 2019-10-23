@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/754082/pexels-photo-754082.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+    color: white !important;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    background-color: #1b1b32cc;
+    border-radius: 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left !important;
+    padding-left: 3%;
+}
+
+input, select, textarea, button {
+    width: 90%;
+    border-radius: 3px;
+}
+
+#dropdown, #most-like {
+    width: 90%;
+}
