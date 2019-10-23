@@ -7,9 +7,10 @@
   </head>
 
   <body>
+    <header>  
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
-
+    </header>  
     <!--3rd and 4th User Stories-->
     <form id="survey-form">
       <div class="form-group">
@@ -56,7 +57,7 @@
 
       <div class="form-group">
         <label id="dropdown-label" for="dropdown">What is your favourite feature of freeCodeCamp?</label><br>
-        <select id="dropdown" name="feature" placeholder="Select an option" required>
+        <select id="most-like" name="mostLike" required>
           <option disabled selected value>Select an option</option>
           <option value="challenges">Challenges</option>
           <option value="projects">Projects</option>
@@ -103,7 +104,18 @@
 
      </div>
 
-    </form>
+     <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" name="comment" placeholder="Enter your comment here...">
+        </textarea>
+     </div>
+
+     <div class="form-group">
+       <button type="submit" id="submit">
+         Submit
+       </button>
+     </div>
+      </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
