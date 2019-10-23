@@ -12,14 +12,26 @@
 
     <!--3rd and 4th User Stories-->
     <form id="survey-form">
-      <label id="name-label" for="name">Name: </label>
+      <label id="name-label" for="name">Name </label>
+      <br>
       <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
-      <br /><br />
-      <label id="email-label" for="email">E-mail: </label>
-      <input id="email" type="email" name="email" placeholder="info@example.com" required>
-      <br /><br />
-      <label id="number-label" for="number">Age: </label>
-      <input id="number" type="number" name="number" placeholder="Enter Your Number" min="10" max="99">
+      <br>
+      <label id="email-label" for="email">Email </label>
+      <br>
+      <input id="email" type="email" name="email" placeholder="info@example.com" required><br>
+      <label id="number-label" for="number">Age <span>(optional)</span></label><br>
+      <input id="number" type="number" name="number" placeholder="Enter Your Number" min="10" max="99"><br>
+      <div>
+        <label id="dropdown-label" for="dropdown">Which option best describes your current role?</label><br>
+        <select id="dropdown" name="role" placeholder="Select current role" required>
+          <option disabled selected value>Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
